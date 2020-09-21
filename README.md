@@ -11,7 +11,7 @@ Engineer SQL and MongoDB databases from a Pandas dataframe containing world happ
   - PostgreSQL
 
 ## Extract
-Imported 2015 and 2020 world happiness csv files from Kaggle.com into Pandas
+Imported 2015 and 2020 world happiness csv files from Kaggle.com into Pandas.
 
 ## Transfrom
 - Dropped unwanted columns from 2015 & 2020, filtered for:
