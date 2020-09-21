@@ -34,7 +34,7 @@ Imported 2015 and 2020 world happiness csv files from Kaggle.com into Pandas.
   
 #### MongoDB
   1. Used Pymongo to create a connection from Pandas to MongoDB local host.
-  2. Converted Pandas dataframes using "to_dict" to ensure proper upload in JSON format
+  2. Converted Pandas dataframes using "to_dict" to ensure proper upload in JSON format.
   3. Included a try and except condition to verify database connection and data upload was successful for both datasets
 
 ## Insights
