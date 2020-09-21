@@ -1,7 +1,7 @@
 # World Happiness ETL Project
 
 ## Project Proposal
-Engineer SQL and MongoDB databases from a Pandas dataframe containing world happiness data from 2015 and 2020
+Engineer SQL and MongoDB databases from a Pandas dataframe containing world happiness data from 2015 and 2020.
   
   #### Tools Used:
   - Pandas
