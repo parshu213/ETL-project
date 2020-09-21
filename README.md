@@ -29,7 +29,7 @@ Imported 2015 and 2020 world happiness csv files from Kaggle.com into Pandas.
 
 ## Load
 #### PostgreSQL
-  1. Created world happiness db in PostgreSQL with seperate tables for each year
+  1. Created world happiness db in PostgreSQL with seperate tables for each year.
   2. Imported data into tables directly from Pandas using SQL Alchemy engine
   
 #### MongoDB
