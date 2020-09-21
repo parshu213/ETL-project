@@ -3,14 +3,14 @@
 ## Project Proposal
 Engineer SQL and MongoDB databases from a Pandas dataframe containing world happiness data from 2015 and 2020
 
-  ### Team Members:
+  #### Team Members:
     - Zac Cheatle
     - Adam McVey
     - Amr Alwakeal 
     - Heather Wright
     - Shelly Fischer
   
-  ### Tools Used:
+  #### Tools Used:
   - Pandas
     - SQL Alchemy
     - Pymongo
@@ -35,11 +35,11 @@ Imported 2015 and 2020 world happiness csv files from Kaggle.com into Pandas
 - Merged data frames based on country
 
 ## Load
-### PostgreSQL
+#### PostgreSQL
   1. Created world happiness db in PostgreSQL with seperate tables for each year
   2. Imported data into tables directly from Pandas using SQL Alchemy engine
   
-### MongoDB
+#### MongoDB
   1. Used Pymongo to create a connection from Pandas to MongoDB local host
   2. Converted Pandas dataframes using "to_dict" to ensure proper upload in JSON format
   3. Included a try and except condition to verify database connection and data upload was successful for both datasets
