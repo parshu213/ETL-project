@@ -1,7 +1,8 @@
 # World Happiness ETL Project
 
 ## Project Proposal
-Engineer SQL and MongoDB databases from a Pandas dataframe containing world happiness data from 2015 and 2020.
+Extract 2015 & 2020 World Happiness data from Kaggle.com, Transform csv files into two clean dataframes, 
+Load dataframes directly from pandas into PostgreSQL and MongoDB. 
   
   ### Team Members:
     - Zac Cheatle
@@ -44,6 +45,5 @@ Imported 2015 and 2020 world happiness csv files from Kaggle.com into Pandas.
   3. Included a try and except condition to verify database connection and data upload was successful for both datasets.
 
 ## Insights
-After completing this project I have concluded it makes more sense to store this data in JSON format in MongoDB than as relational tables in a SQL database. 
-Considering there are only two (unrelated) data tables involved, I do not need to employ standard data normalization practices such as an ERD, table schema, 
-or primary/foreign keys to properly store this data. 
+An imortant aspect of completing this project was deciding which type of database would be best suited; SQL or NoSQL to store our data. 
+Considering there are only two (unrelated) data tables involved, it makes more sense to use MongoDB here than a relational database like SQL. 
