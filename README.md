@@ -3,6 +3,12 @@
 ## Project Proposal
 Engineer SQL and MongoDB databases from a Pandas dataframe containing world happiness data from 2015 and 2020.
   
+  ### Team Members:
+  - Zac Cheatle
+  - Adam Mcvey
+  - Heather Wright
+  - Shelly Fischer
+  
   #### Tools Used:
   - Pandas
     - SQL Alchemy
